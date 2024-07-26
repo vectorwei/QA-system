@@ -1,5 +1,5 @@
 # Overview
-In this repository, I build a question-answering system with the SQuAD v2.0 dataset, training by a‬ pre-trained DistilBERT model from Huggingface Transformers through Bash scripts and Python‬. And I deployed the trained question-answering model using Spark-NLP and integrated Kafka for real-time data streaming‬.
+In this repository, I build a question-answering system with the SQuAD v2.0 dataset, training by a‬ pre-trained DistilBERT model from Huggingface Transformers through Bash scripts and Python‬. And I deployed the trained question-answering model using Spark-NLP and integrated Kafka for simulating real-time data streaming‬.
 ‭
 ## Introduction
 
