@@ -18,7 +18,8 @@ faster, cheaper and lighter](https://arxiv.org/pdf/1910.01108). The pre-trained 
 - Examine what the dataset looks like: Explore the dataset to understand its structure and contents.
 - Converts the string to an token, and then converts the answer start and answer end indexes from the character position to the token position.
 - Convert data to the correct format for training with PyTorch.
-related files: preprocess.ipynb, pre&train.py
+
+Related files: preprocess.ipynb, pre&train.py
 
 ## II. Training
 - Set up the PyTorch environment and initialize the DataLoader.
@@ -27,7 +28,7 @@ related files: preprocess.ipynb, pre&train.py
 - Compute accuracy with bash script to find the best parameter.
 - Save the fine-tuned model.
 
-related files: modelloading.ipynb, pre&train.py, trainbash.sh, training.ipynb
+Related files: modelloading.ipynb, pre&train.py, trainbash.sh, training.ipynb
 
 ## III. Deploy SparkNLP
 - Start kafka, and create "producer" to input our data into stream
@@ -35,7 +36,7 @@ related files: modelloading.ipynb, pre&train.py, trainbash.sh, training.ipynb
 - Get the stream data from kafka
 - Deploy the model to the stream data, use dataframe to fit the model and get the result.
 
-related files: producer.py, sparknlp1.ipynb, sparknlp2.ipynb
+Related files: producer.py, sparknlp1.ipynb, sparknlp2.ipynb
 
 
 
