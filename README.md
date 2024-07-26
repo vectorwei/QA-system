@@ -1,5 +1,6 @@
 # Overview
-
+In this repository, I build a question-answering system with the SQuAD v2.0 dataset, training by a‬ pre-trained DistilBERT model from Huggingface Transformers through Bash scripts and Python‬. And I deployed the trained question-answering model using Spark-NLP and integrated Kafka for real-time data streaming‬.
+‭
 ## Introduction
 
 ### What is SQuAD2.0?
@@ -9,4 +10,4 @@ SQuAD2.0 combines the 100,000 questions in SQuAD1.1 with over 50,000 unanswerabl
 
 ### What is DistilBERT Model 
 DistilBERT is a distilled version of BERT (Bidirectional Encoder Representations from Transformers), created by Hugging Face. It uses knowledge distillation to retain most of BERT's language understanding capabilities while being smaller, faster, and more efficient. With only 60% of BERT's parameters, DistilBERT is ideal for resource-constrained environments, making it a popular choice for various NLP tasks like text classification, question answering, and named entity recognition. The details of DistilBERT model can be checked at [DistilBERT, a distilled version of BERT: smaller,
-faster, cheaper and lighter](https://arxiv.org/pdf/1910.01108)
+faster, cheaper and lighter](https://arxiv.org/pdf/1910.01108). The pre-trained DistilBERT model is from [Huggingface Transformers](https://github.com/huggingface/transformers).
